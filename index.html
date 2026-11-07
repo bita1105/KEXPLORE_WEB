@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100d18" />
+  <meta name="description" content="AFTERGLOW — two days of music, art and unforgettable energy." />
+  <title>AFTERGLOW — Music & Arts Festival</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> EARLY BIRD PASSES ARE LIVE <a href="#tickets">GET YOURS <span>↗</span></a></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Afterglow home"><span class="brand-mark">✳</span> AFTERGLOW<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#lineup">LINEUP</a><a href="#experience">EXPERIENCE</a><a href="#venue">THE VENUE</a><a href="#tickets">TICKETS</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">☼</button>
+      <a class="nav-cta" href="#tickets">GET PASSES <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grain"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MUSIC • ART • FREEDOM</p>
+        <h1>FEEL THE<br><span class="gradient-text">AFTERGLOW</span><span class="hero-star">✳</span></h1>
+        <p class="hero-copy">Two days. One coast. A thousand stories waiting to happen.<br>Come for the music. Stay for the feeling.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#tickets">EXPLORE PASSES <span>↗</span></a><a class="text-link" href="#lineup"><span class="play-icon">▶</span> DISCOVER THE LINEUP</a></div>
+        <div class="hero-meta"><div><strong>12—13</strong><span>JUNE 2027</span></div><i></i><div><strong>GOA</strong><span>INDIA · BY THE SEA</span></div><i></i><div><strong>02</strong><span>DAYS OF MAGIC</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract festival sunset artwork">
+        <div class="sun"></div><div class="sun-ring ring-a"></div><div class="sun-ring ring-b"></div>
+        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="water"></div><div class="water-line wl1"></div><div class="water-line wl2"></div><div class="water-line wl3"></div>
+        <div class="art-label">CHASE<br>THE SUNSET <span>✳</span></div>
+        <div class="art-side">15°29' N — 73°49' E</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>EST. FOR THE FEELING</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Festival highlights"><div class="ticker-track"><span>GOOD MUSIC</span><b>✳</b><span>GREAT PEOPLE</span><b>✳</b><span>GOLDEN HOURS</span><b>✳</b><span>UNREAL MEMORIES</span><b>✳</b><span>GOOD MUSIC</span><b>✳</b><span>GREAT PEOPLE</span><b>✳</b><span>GOLDEN HOURS</span><b>✳</b><span>UNREAL MEMORIES</span><b>✳</b></div></section>
+
+    <section class="section lineup-section" id="lineup">
+      <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> THE SOUND OF NOW</p><h2>MEET YOUR<br><span class="gradient-text">NEW FAVOURITES.</span></h2></div><p class="section-intro">From sunrise sets to after-dark anthems — discover the artists bringing the coast to life.</p></div>
+      <div class="filters">
+        <div class="search-wrap"><span>⌕</span><input id="eventSearch" type="search" placeholder="Search artists or events..." aria-label="Search events"></div>
+        <div class="filter-buttons" id="filterButtons"><button class="filter-btn active" data-filter="all">ALL EVENTS</button><button class="filter-btn" data-filter="electronic">ELECTRONIC</button><button class="filter-btn" data-filter="indie">INDIE</button><button class="filter-btn" data-filter="live">LIVE & CULTURE</button></div>
+      </div>
+      <div class="event-grid" id="eventGrid">
+        <article class="event-card" data-category="electronic" data-search="neon tide electronic dj sunset stage">
+          <div class="event-image image-one"><span class="event-number">01 / MAIN STAGE</span><span class="image-symbol">〰</span><span class="image-tag">DAY 01</span></div>
+          <div class="event-info"><div><p class="event-type">ELECTRONIC · 7:30 PM</p><h3>NEON TIDE</h3><p class="event-desc">A euphoric journey through melodic house and golden-hour beats.</p></div><button class="round-arrow event-detail" data-event="neon" aria-label="View Neon Tide details">↗</button></div>
+        </article>
+        <article class="event-card" data-category="indie" data-search="the paper moons indie band acoustic">
+          <div class="event-image image-two"><span class="event-number">02 / DUNE STAGE</span><span class="image-symbol">☾</span><span class="image-tag">DAY 01</span></div>
+          <div class="event-info"><div><p class="event-type">INDIE · 5:00 PM</p><h3>THE PAPER MOONS</h3><p class="event-desc">Dreamy guitars, honest lyrics and songs made for singing along.</p></div><button class="round-arrow event-detail" data-event="moons" aria-label="View The Paper Moons details">↗</button></div>
+        </article>
+        <article class="event-card" data-category="electronic" data-search="sundown society techno electronic dj">
+          <div class="event-image image-three"><span class="event-number">03 / MAIN STAGE</span><span class="image-symbol">✳</span><span class="image-tag">DAY 02</span></div>
+          <div class="event-info"><div><p class="event-type">ELECTRONIC · 9:00 PM</p><h3>SUNDOWN SOCIETY</h3><p class="event-desc">Deep rhythms and hypnotic energy that keep the night moving.</p></div><button class="round-arrow event-detail" data-event="sundown" aria-label="View Sundown Society details">↗</button></div>
+        </article>
+        <article class="event-card" data-category="live" data-search="wildflower collective live folk percussion">
+          <div class="event-image image-four"><span class="event-number">04 / DUNE STAGE</span><span class="image-symbol">✺</span><span class="image-tag">DAY 02</span></div>
+          <div class="event-info"><div><p class="event-type">LIVE & CULTURE · 4:00 PM</p><h3>WILDFLOWER COLLECTIVE</h3><p class="event-desc">A vibrant live set blending folk textures, percussion and soul.</p></div><button class="round-arrow event-detail" data-event="wildflower" aria-label="View Wildflower Collective details">↗</button></div>
+        </article>
+        <article class="event-card" data-category="indie" data-search="velvet mornings indie pop live">
+          <div class="event-image image-five"><span class="event-number">05 / DUNE STAGE</span><span class="image-symbol">◒</span><span class="image-tag">DAY 02</span></div>
+          <div class="event-info"><div><p class="event-type">INDIE · 6:15 PM</p><h3>VELVET MORNINGS</h3><p class="event-desc">Feel-good indie pop for the last light of a perfect day.</p></div><button class="round-arrow event-detail" data-event="velvet" aria-label="View Velvet Mornings details">↗</button></div>
+        </article>
+        <article class="event-card" data-category="live" data-search="after hours art installation light show">
+          <div class="event-image image-six"><span class="event-number">06 / ART GARDEN</span><span class="image-symbol">◎</span><span class="image-tag">BOTH DAYS</span></div>
+          <div class="event-info"><div><p class="event-type">ART & CULTURE · ALL DAY</p><h3>AFTER HOURS</h3><p class="event-desc">Immersive light installations, creative spaces and unexpected moments.</p></div><button class="round-arrow event-detail" data-event="afterhours" aria-label="View After Hours details">↗</button></div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults" hidden>No events match that search. Try another artist or category.</p>
+    </section>
+
+    <section class="countdown-section" id="experience"><div class="countdown-bg"></div><div class="countdown-inner"><p class="eyebrow"><span class="eyebrow-line"></span> THE WAIT IS PART OF THE MAGIC</p><h2>THE CLOCK IS<br><span class="gradient-text">TICKING.</span></h2><div class="countdown" id="countdown"><div><strong id="days">---</strong><span>DAYS</span></div><b>:</b><div><strong id="hours">--</strong><span>HOURS</span></div><b>:</b><div><strong id="minutes">--</strong><span>MINUTES</span></div><b>:</b><div><strong id="seconds">--</strong><span>SECONDS</span></div></div><p class="countdown-note">UNTIL WE MEET UNDER THE OPEN SKY</p></div><div class="countdown-stamp">12<br><span>JUN</span><br>27</div></section>
+
+    <section class="experience-section section"><div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> MORE THAN A MUSIC FESTIVAL</p><h2>MAKE A WEEKEND<br><span class="gradient-text">OUT OF IT.</span></h2></div><p class="section-intro">Lose track of time. Find your people. Explore everything happening between the sets.</p></div>
+      <div class="experience-grid">
+        <div class="experience-card exp-food"><div class="exp-icon">✳</div><div><p>01 — TASTE</p><h3>THE FOOD<br>GARDEN</h3><span>Local favourites, global flavours and late-night bites.</span></div></div>
+        <div class="experience-card exp-art"><div class="exp-icon">◉</div><div><p>02 — EXPLORE</p><h3>ART THAT<br>COMES ALIVE</h3><span>Interactive installations made to be discovered.</span></div></div>
+        <div class="experience-card exp-chill"><div class="exp-icon">☼</div><div><p>03 — UNWIND</p><h3>THE CHILL<br>ZONE</h3><span>Slow down, recharge and catch the sunset.</span></div></div>
+      </div>
+    </section>
+
+    <section class="venue-section" id="venue"><div class="venue-visual"><div class="venue-sun"></div><div class="venue-copy"><p class="eyebrow">OUR LITTLE SLICE OF PARADISE</p><h2>WHERE THE<br>LAND MEETS<br><span class="gradient-text">THE SOUND.</span></h2></div><div class="venue-coords">GOA, INDIA · 15°29' N</div></div><div class="venue-details"><p class="eyebrow"><span class="eyebrow-line"></span> THE VENUE</p><h3>THE COAST<br>IS CALLING.</h3><p>Picture warm sand beneath your feet, a sea breeze in the air and your favourite song echoing into the sunset. That's the AFTERGLOW feeling.</p><div class="venue-facts"><div><span>WHEN</span><strong>12—13 JUNE 2027</strong></div><div><span>WHERE</span><strong>GOA, INDIA</strong></div><div><span>GATES OPEN</span><strong>2:00 PM DAILY</strong></div></div><a class="text-link" href="#tickets">PLAN YOUR WEEKEND <span>↗</span></a></div></section>
+
+    <section class="tickets-section section" id="tickets"><div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> YOUR WEEKEND STARTS HERE</p><h2>CLAIM YOUR<br><span class="gradient-text">AFTERGLOW.</span></h2></div><p class="section-intro">Good times are better shared. Pick your pass and we'll see you by the sea.</p></div>
+      <div class="ticket-grid">
+        <article class="ticket-card"><p class="ticket-label">THE DAY TRIPPER</p><h3>DAY PASS</h3><div class="price">₹1,499<span> / person</span></div><p class="ticket-sub">One day. All the energy.</p><ul><li>✓ Entry for one festival day</li><li>✓ Access to all stages</li><li>✓ Art garden access</li></ul><button class="btn btn-outline register-trigger" data-ticket="Day Pass">CHOOSE DAY PASS <span>↗</span></button></article>
+        <article class="ticket-card featured-ticket"><div class="popular">MOST LOVED ✳</div><p class="ticket-label">THE FULL EXPERIENCE</p><h3>WEEKEND PASS</h3><div class="price">₹2,499<span> / person</span></div><p class="ticket-sub">Two days. Zero FOMO.</p><ul><li>✓ Entry for both festival days</li><li>✓ Access to all stages</li><li>✓ Art garden + chill zone</li><li>✓ Priority entry lane</li></ul><button class="btn btn-primary register-trigger" data-ticket="Weekend Pass">GET WEEKEND PASS <span>↗</span></button></article>
+        <article class="ticket-card"><p class="ticket-label">BRING YOUR CREW</p><h3>CREW PASS</h3><div class="price">₹8,499<span> / 4 people</span></div><p class="ticket-sub">Your people. Your festival.</p><ul><li>✓ Weekend entry for four</li><li>✓ Access to all stages</li><li>✓ Art garden + chill zone</li><li>✓ Dedicated group check-in</li></ul><button class="btn btn-outline register-trigger" data-ticket="Crew Pass">CHOOSE CREW PASS <span>↗</span></button></article>
+      </div><p class="ticket-disclaimer">Demo festival website — ticket prices and event details are illustrative. Registration is stored locally in your browser.</p>
+    </section>
+
+    <section class="final-cta"><p class="eyebrow">THE SUN WILL SET. THE MEMORIES WON'T.</p><h2>SEE YOU IN THE<br><span class="gradient-text">GOLDEN HOUR.</span></h2><a class="btn btn-primary" href="#tickets">LET'S MAKE MEMORIES <span>↗</span></a><div class="cta-spark">✳</div></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#top"><span class="brand-mark">✳</span> AFTERGLOW<span class="brand-dot">.</span></a><p>MADE FOR THE MUSIC. REMEMBERED FOR THE FEELING.</p><div class="footer-links"><a href="#lineup">LINEUP</a><a href="#venue">VENUE</a><a href="#tickets">PASSES</a><a href="mailto:hello@afterglow.example">CONTACT</a></div><small>© 2027 AFTERGLOW FESTIVAL. A STUDENT PROJECT CONCEPT.</small></footer>
+
+  <div class="modal-backdrop" id="eventModal" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" data-close="eventModal" aria-label="Close">×</button><p class="eyebrow" id="modalType">EVENT DETAILS</p><h2 id="modalTitle">EVENT NAME</h2><p id="modalDescription"></p><div class="modal-meta" id="modalMeta"></div><button class="btn btn-primary" id="modalRegister">REGISTER FOR THIS EVENT <span>↗</span></button></div></div>
+  <div class="modal-backdrop" id="registerModal" aria-hidden="true"><div class="modal registration-modal" role="dialog" aria-modal="true" aria-labelledby="registerTitle"><button class="modal-close" data-close="registerModal" aria-label="Close">×</button><p class="eyebrow">SAVE YOUR SPOT</p><h2 id="registerTitle">LET'S GET<br><span class="gradient-text">YOU THERE.</span></h2><form id="registrationForm"><label>FULL NAME<input type="text" name="name" placeholder="Your name" required minlength="2"></label><label>EMAIL ADDRESS<input type="email" name="email" placeholder="you@example.com" required></label><label>PHONE NUMBER<input type="tel" name="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" required></label><label>SELECT YOUR PASS<select name="ticket" id="ticketSelect" required><option value="">Choose a pass</option><option>Day Pass</option><option>Weekend Pass</option><option>Crew Pass</option></select></label><label class="consent"><input type="checkbox" required> I agree to be contacted with festival updates.</label><button class="btn btn-primary" type="submit">COMPLETE REGISTRATION <span>↗</span></button><p class="form-note">This demo stores your registration on this device only.</p></form><div class="success-message" id="successMessage" hidden><div class="success-icon">✓</div><h3>YOU'RE ON THE LIST!</h3><p id="successText">Your registration is saved.</p><button class="btn btn-outline" id="closeSuccess">BACK TO THE FESTIVAL</button></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
